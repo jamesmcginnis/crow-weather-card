@@ -11,8 +11,21 @@ A weather card for [Home Assistant](https://www.home-assistant.io/) with an anim
 ### Compact card
 - **Animated sky** that follows the current condition and switches to night after sunset: sun, cloud, rain, snow, fog, thunder and a starry sky.
 - **Temperature, condition, today's high and low**, a humidity pill and, optionally, wind.
-- **Sky extras** you can switch on or off: a UFO, the USS Enterprise, a Borg Cube, a Stargate and Angry Birds.
+- **Sky extras**: now and then something unexpected passes through the sky (see below).
 - Tap to open the full card. Long-press for the weather entity's more-info.
+
+### Sky extras
+Every so often, roughly once every half a minute or so, a surprise appears in the compact card's sky:
+
+| Extra | What happens |
+|---|---|
+| 🛸 **UFO** | An alien saucer drifts across, with a little alien waving from the window |
+| 🚀 **USS Enterprise** | The NCC-1701 warps across the sky |
+| 🟩 **Borg Cube** | The cube arrives and locks its tractor beam on to the Sun or Moon — resistance is futile |
+| 🌀 **Stargate** | The gate forms in the sky and opens with the SG-1 "kawoosh" into a shimmering wormhole |
+| 🐦 **Angry Birds** | Red, Yellow, Blue, Black and Bomb birds fly across in an arc |
+
+They sit alongside the everyday sky, which has birds, planes, drifting clouds, rain, snow, fog, lightning and stars. All five extras are on by default, and each has its own switch in the editor's **Weather** section.
 
 ### Weather tab
 - **Hero**: the condition icon, the temperature, and pills for "Feels like", the high and low, and a "3° warmer than yesterday" comparison from your Home Assistant history.
